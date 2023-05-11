@@ -1,0 +1,261 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,200;1,300&family=Poppins:wght@300&family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  background-color: #223446;
+  height: 80px;
+  width: 100%;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+img{
+  width: 30%;
+  padding: 0 40px;
+}
+.engineering{
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #d1c144;
+  margin: 10px 50px;
+
+}
+.engineering p{
+  color: red;
+  font-size: 20px;
+  
+}
+.engineering h4{
+  padding-top: 10px;
+  color: #0082e6;
+  font-size: 20px;
+  font-weight: 500;
+}
+.engineering li{
+  font-size: 15px;
+}
+
+.arts{
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #7e3b49;
+  margin: 10px 50px;
+}
+.arts h4{
+  padding-top: 10px;
+  color: #0082e6;
+  font-size: 20px;
+  font-weight: 500;
+}
+.arts p{
+  color: red;
+  font-size: 20px;
+}
+.poly{
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #5b9b83;
+  margin: 10px 50px;
+}
+.poly h4{
+  padding-top: 10px;
+  color: #0082e6;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.poly p{
+  color: red;
+  font-size: 20px;
+}
+.iti{
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #d1c144;
+  margin: 10px 50px;
+}
+.iti h4{
+  padding-top: 10px;
+  color: #0082e6;
+  font-size: 20px;
+  font-weight: 500;
+}
+.iti p{
+  color: red;
+  font-size: 20px;
+}
+.school{
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b97344;
+  margin: 10px 50px;
+}
+.school p{
+  color: red;
+  font-size: 20px;
+}
+
+
+@media (max-width: 952px){
+  img{
+    width: 60%;
+    margin-top: 20px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .engineering p{
+    color: red;
+    font-size: 16px;
+    
+  }
+  .arts p{
+    color: red;
+    font-size: 16px;
+  }
+  .poly p{
+    color: red;
+    font-size: 16px;
+  }
+  .iti p{
+    color: red;
+    font-size: 16px;
+  }
+  .school p{
+    color: red;
+    font-size: 20px;
+  }
+  .engineering li{
+    font-size: 16px;
+  }
+  .engineering{
+    border: 1px solid black;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #d1c144;
+    margin: 10px 15px;
+  
+  }
+  .arts{
+    border: 1px solid black;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #7e3b49;
+    margin: 10px 15px;
+  
+  }
+  .poly{
+    border: 1px solid black;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #5b9b83;
+    margin: 10px 15px;
+  
+  }
+  .iti{
+    border: 1px solid black;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #d1c144;
+    margin: 10px 15px;
+  
+  }
+  .school{
+    border: 1px solid black;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #b97344;
+    margin: 10px 15px;
+  
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
